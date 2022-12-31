@@ -3,3 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   lintOnSave: false,
 })
+module.exports = {
+  publicPath: '/MEVNStackExample/'
+}
